@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            <span>Tea</span> Heaven
+        </a>
+    
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="products.html">products</a>
+            <a href="review.html">review</a>
+            <a href="contact.html">contact</a>
+            <a href="blogs.html">blogs</a>
+        </nav>
+    
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">₹999.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+    
+    </header>
+    
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+    
+        <div class="row">
+    
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.894721159519!2d72.43756931489145!3d23.06432098493196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9c1732514939%3A0xefe384ba0a79209c!2sIndus%20University!5e0!3m2!1sen!2sin!4v1665410840080!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
+    
+        </div>
+    
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
